@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', Times, serif; /* Familia de fuentes */
+    font-size: 20px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #e0d0a2ec; /* El color del fondo de la página web */
+    color: #14151a; /* El color del texto*/ 
+}
+@keyframes color-change {
+    0% {
+      color: rgb(62, 134, 31);
+    }
+  
+    25% {
+      color: rgb(255, 255, 255);
+    }
+    
+    50% {
+        color: rgb(197, 27, 27);
+    }
+    75% {
+        color: forestgreen;
+    }
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+    font-family: 'Times New Roman', Times, serif;
+}
+p  {
+    color: #071350;
+    font-size: 25px;
+    font-family: "Times New Roman', Times, serif";
+}
+h2{
+  color: rgb(214, 12, 12);
+  font-size: 25px ;
+}
+
+h6  {
+  color: rgb(214, 12, 12);
+  font-size: 25px ;
+  font-family:'Times New Roman', Times,Arial ;
+}
